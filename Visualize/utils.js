@@ -1,3 +1,7 @@
+colors = {'tookColor': ['#FFA726', '#FFCC80'],
+    'cannotTakeColor': ['#EC407A', '#F48FB1'],
+    'couldTakeColor': ['#9CCC65', '#C5E1A5']};
+
 function getNodes() {
     var rtn = [
         {'id': 'LE/EECS 1001', 'label': 'LE/EECS 1001'}, {'id': 'LE/EECS 1011', 'label': 'LE/EECS 1011'}, {'id': 'LE/EECS 1012', 'label': 'LE/EECS 1012'}, {'id': 'LE/EECS 1019', 'label': 'LE/EECS 1019'}, {'id': 'LE/EECS 1021', 'label': 'LE/EECS 1021'}, {'id': 'LE/EECS 1022', 'label': 'LE/EECS 1022'}, {'id': 'LE/EECS 1028', 'label': 'LE/EECS 1028'}, {'id': 'LE/EECS 1520', 'label': 'LE/EECS 1520'}, {'id': 'LE/EECS 1530', 'label': 'LE/EECS 1530'}, {'id': 'LE/EECS 1540', 'label': 'LE/EECS 1540'}, {'id': 'LE/EECS 1541', 'label': 'LE/EECS 1541'}, {'id': 'LE/EECS 1560', 'label': 'LE/EECS 1560'}, {'id': 'LE/EECS 1570', 'label': 'LE/EECS 1570'}, {'id': 'LE/EECS 1710', 'label': 'LE/EECS 1710'}, {'id': 'LE/EECS 1720', 'label': 'LE/EECS 1720'}, {'id': 'LE/EECS 2001', 'label': 'LE/EECS 2001'}, {'id': 'LE/EECS 2011', 'label': 'LE/EECS 2011'}, {'id': 'LE/EECS 2021', 'label': 'LE/EECS 2021'}, {'id': 'LE/EECS 2030', 'label': 'LE/EECS 2030'}, {'id': 'LE/EECS 2031', 'label': 'LE/EECS 2031'}, {'id': 'LE/EECS 2200', 'label': 'LE/EECS 2200'}, {'id': 'LE/EECS 2210', 'label': 'LE/EECS 2210'}, {'id': 'LE/EECS 2311', 'label': 'LE/EECS 2311'}, {'id': 'LE/EECS 2501', 'label': 'LE/EECS 2501'}, {'id': 'LE/EECS 2602', 'label': 'LE/EECS 2602'}, {'id': 'LE/EECS 3000', 'label': 'LE/EECS 3000'}, {'id': 'LE/EECS 3101', 'label': 'LE/EECS 3101'}, {'id': 'LE/EECS 3121', 'label': 'LE/EECS 3121'}, {'id': 'LE/EECS 3122', 'label': 'LE/EECS 3122'}, {'id': 'LE/EECS 3201', 'label': 'LE/EECS 3201'}, {'id': 'LE/EECS 3213', 'label': 'LE/EECS 3213'}, {'id': 'LE/EECS 3214', 'label': 'LE/EECS 3214'}, {'id': 'LE/EECS 3215', 'label': 'LE/EECS 3215'}, {'id': 'LE/EECS 3221', 'label': 'LE/EECS 3221'}, {'id': 'LE/EECS 3311', 'label': 'LE/EECS 3311'}, {'id': 'LE/EECS 3342', 'label': 'LE/EECS 3342'}, {'id': 'LE/EECS 3401', 'label': 'LE/EECS 3401'}, {'id': 'LE/EECS 3421', 'label': 'LE/EECS 3421'}, {'id': 'LE/EECS 3431', 'label': 'LE/EECS 3431'}, {'id': 'LE/EECS 3451', 'label': 'LE/EECS 3451'}, {'id': 'LE/EECS 3461', 'label': 'LE/EECS 3461'}, {'id': 'LE/EECS 3481', 'label': 'LE/EECS 3481'}, {'id': 'LE/EECS 3482', 'label': 'LE/EECS 3482'}, {'id': 'LE/EECS 3505', 'label': 'LE/EECS 3505'}, {'id': 'LE/EECS 3602', 'label': 'LE/EECS 3602'}, {'id': 'LE/EECS 3603', 'label': 'LE/EECS 3603'}, {'id': 'LE/EECS 3604', 'label': 'LE/EECS 3604'}, {'id': 'LE/EECS 3611', 'label': 'LE/EECS 3611'}, {'id': 'LE/EECS 3612', 'label': 'LE/EECS 3612'}, {'id': 'LE/EECS 4070', 'label': 'LE/EECS 4070'}, {'id': 'LE/EECS 4080', 'label': 'LE/EECS 4080'}, {'id': 'LE/EECS 4081', 'label': 'LE/EECS 4081'}, {'id': 'LE/EECS 4082', 'label': 'LE/EECS 4082'}, {'id': 'LE/EECS 4084', 'label': 'LE/EECS 4084'}, {'id': 'LE/EECS 4088', 'label': 'LE/EECS 4088'}, {'id': 'LE/EECS 4090', 'label': 'LE/EECS 4090'}, {'id': 'LE/EECS 4101', 'label': 'LE/EECS 4101'}, {'id': 'LE/EECS 4111', 'label': 'LE/EECS 4111'}, {'id': 'LE/EECS 4161', 'label': 'LE/EECS 4161'}, {'id': 'LE/EECS 4201', 'label': 'LE/EECS 4201'}, {'id': 'LE/EECS 4214', 'label': 'LE/EECS 4214'}, {'id': 'LE/EECS 4215', 'label': 'LE/EECS 4215'}, {'id': 'LE/EECS 4312', 'label': 'LE/EECS 4312'}, {'id': 'LE/EECS 4313', 'label': 'LE/EECS 4313'}, {'id': 'LE/EECS 4314', 'label': 'LE/EECS 4314'}, {'id': 'LE/EECS 4315', 'label': 'LE/EECS 4315'}, {'id': 'LE/EECS 4401', 'label': 'LE/EECS 4401'}, {'id': 'LE/EECS 4404', 'label': 'LE/EECS 4404'}, {'id': 'LE/EECS 4411', 'label': 'LE/EECS 4411'}, {'id': 'LE/EECS 4412', 'label': 'LE/EECS 4412'}, {'id': 'LE/EECS 4413', 'label': 'LE/EECS 4413'}, {'id': 'LE/EECS 4414', 'label': 'LE/EECS 4414'}, {'id': 'LE/EECS 4415', 'label': 'LE/EECS 4415'}, {'id': 'LE/EECS 4421', 'label': 'LE/EECS 4421'}, {'id': 'LE/EECS 4422', 'label': 'LE/EECS 4422'}, {'id': 'LE/EECS 4431', 'label': 'LE/EECS 4431'}, {'id': 'LE/EECS 4441', 'label': 'LE/EECS 4441'}, {'id': 'LE/EECS 4443', 'label': 'LE/EECS 4443'}, {'id': 'LE/EECS 4452', 'label': 'LE/EECS 4452'}, {'id': 'LE/EECS 4481', 'label': 'LE/EECS 4481'}, {'id': 'LE/EECS 4482', 'label': 'LE/EECS 4482'}, {'id': 'LE/EECS 4491', 'label': 'LE/EECS 4491'}, {'id': 'LE/EECS 4611', 'label': 'LE/EECS 4611'}, {'id': 'LE/EECS 4612', 'label': 'LE/EECS 4612'}, {'id': 'LE/EECS 4613', 'label': 'LE/EECS 4613'}, {'id': 'LE/EECS 4614', 'label': 'LE/EECS 4614'}, {'id': 'LE/EECS 4622', 'label': 'LE/EECS 4622'}, {'id': 'LE/EECS 4641', 'label': 'LE/EECS 4641'}, {'id': 'LE/EECS 4700', 'label': 'LE/EECS 4700'}];
@@ -11,13 +15,23 @@ function getEdges() {
     return rtn;
 }
 
-function changeNodeColor(node, colorSet) {
+function changeNodeColor(network, node, color_type) {
+
+    // if the user had already clicked on this node, then don't change the color
+    if (node.color != null) {
+        if (node.color.background === colors.tookColor[0])
+            return node;
+    }
+
+
+
+    // change color of the node
     node.color = {
-        border: colorSet[0],
-        background: colorSet[0],
+        border: colors[color_type][0],
+        background: colors[color_type][0],
         highlight: {
-            border: colorSet[1],
-            background: colorSet[1]
+            border: colors[color_type][1],
+            background: colors[color_type][1]
         }
     };
 
@@ -32,12 +46,12 @@ function makeEdgeVisible(edge) {
     return edge;
 }
 
-function propagateBackwardToShowPrerequisites(nodes, edges, someEdge) {
+function propagateBackwardToShowPrerequisites(network, nodes, edges, someEdge) {
 
     //console.log(someEdge);
     var fromNodeID = someEdge['from'];
     var connectedNode = nodes.get(fromNodeID);
-    connectedNode = changeNodeColor(connectedNode, cannotTakeColor);
+    connectedNode = changeNodeColor(network, connectedNode, 'cannotTakeColor');
     nodes.update(connectedNode);
 
     someEdge = makeEdgeVisible(someEdge);
@@ -49,7 +63,7 @@ function propagateBackwardToShowPrerequisites(nodes, edges, someEdge) {
     for (var i=0; i<someEdges.length; i++) {
         var someOtherEdge = edges.get(someEdges[i]);
         if (fromNodeID !== someOtherEdge['from'])
-            propagateBackwardToShowPrerequisites(nodes, edges, someOtherEdge);
+            propagateBackwardToShowPrerequisites(network, nodes, edges, someOtherEdge);
     }
 
 }
