@@ -1,5 +1,5 @@
 # YorkU EECS Course Map
-This project allows you to **visualize the courses that you can take for the coming year**! Using your prerequisites, you can see the courses that you can enroll into inside a clean UI. The code also works for other all other departments at York, so be sure to change the link in Jupyter Notebook to your department's course directory. 
+This project allows you to **visualize the courses that you can take for the coming semester**! Using your prerequisites, you can see the courses that you can enroll into inside a clean UI. The code also works for other all other departments at York, so be sure to change the link in Jupyter Notebook to your department's course directory. 
 ***
 ### Implementation
 This project was built using **Python** and a few web technologies **(HTML/CSS/JS)**. 
